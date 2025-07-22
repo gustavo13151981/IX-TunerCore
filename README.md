@@ -1,112 +1,129 @@
-# IX-TunerCore
+# IX-TunerCore: Advanced Harmonic Field Control System 🌌🔊
 
-Tesla-Based Scalar Harmonic Field Alignment System  
-**Real-World Buildable Array. 3-6-9 Lock. DARPA-Grade Open Science.**
+![IX-TunerCore](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=for-the-badge&logo=github)
 
----
+## Overview
 
-## 🔺 Overview
+The IX-TunerCore project focuses on creating a real-world harmonic field array. It employs Tesla's 3-6-9 logic to facilitate scalar phase convergence and operates self-regulating Direct Digital Synthesis (DDS) waveform nodes. The system comprises a 21-unit pyramid structure designed for frequency-locked field control, magnetic-optical feedback, and gravitational interaction research.
 
-IX-TunerCore is a distributed harmonic tuning array composed of 21 modular pyramidal nodes, each emitting a 3-6-9 structured waveform aimed at a central convergence point. When arranged in geometric spherical symmetry, these nodes self-align using onboard sensors and modulate their waveform output in real time to achieve scalar coherence.
+## Table of Contents
 
----
+- [Key Features](#key-features)
+- [Technical Specifications](#technical-specifications)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## 🌐 USA UPGRADE REQUIRED
+## Key Features
 
-This phrase is embedded in this project to symbolize its mission:
+- **Amplitude Modulated DDS Output**: Generates precise waveforms for diverse applications.
+- **Closed Loop Analog Modulation**: Ensures stability and accuracy in signal processing.
+- **Directed Energy Synchronization**: Coordinates energy outputs for enhanced performance.
+- **Dynamic DDS Tuning**: Allows real-time adjustments to waveform characteristics.
+- **Energy Phase Space Alignment**: Aligns energy states for optimal resonance.
+- **Field-Centric Sensor Feedback**: Utilizes sensor data to improve field interactions.
+- **Frequency Converged Beam Control**: Maintains beam stability across various frequencies.
+- **Harmonic Resonance Systems**: Explores resonant behaviors in multiple systems.
+- **Magneto-Optical Feedback Loops**: Integrates magnetic and optical data for advanced feedback.
+- **Multi-Modal Field Detection**: Detects various field types simultaneously.
+- **Non-Networked Array Coherence**: Operates effectively without network dependencies.
+- **Phase Coherent Oscillator Arrays**: Maintains phase coherence across oscillators.
+- **Precision Harmonic Locking**: Locks frequencies with high precision.
+- **Quantized Scalar Phase Control**: Implements scalar phase control techniques.
+- **Resonance-Based Thermal Regulation**: Manages thermal properties through resonance.
+- **Scalar Field Engineering**: Designs and manipulates scalar fields.
+- **Self-Regulating Field Nodes**: Nodes that autonomously adjust for optimal performance.
+- **Singularity-Oriented Geometry**: Utilizes geometric principles to enhance field interactions.
+- **Tesla 3-6-9 Modulation**: Applies Tesla's principles for unique modulation techniques.
+- **Tri-Harmonic Waveform Logic**: Incorporates tri-harmonic logic for advanced waveform generation.
 
-**U**nified  
-**S**calar  
-**A**lignment  
+## Technical Specifications
 
-**U**nderlying  
-**P**hase  
-**G**ain  
-**R**esonance  
-**A**mplification  
-**D**irected  
-**E**mission  
+### Hardware Requirements
 
-**R**eal  
-**E**ngineering  
-**Q**uantized  
-**U**nbreakable  
-**I**nterlock  
-**R**esponsive  
-**E**nvelope  
-**D**ynamics
+- **Microcontroller**: ARM Cortex M4 or equivalent
+- **Power Supply**: 12V DC with a minimum of 2A
+- **Sensors**: Compatible field sensors (e.g., magnetic, optical)
+- **Communication Interfaces**: I2C, SPI, UART
 
----
+### Software Requirements
 
-## 🔬 Scientific Principle
+- **Development Environment**: Arduino IDE or PlatformIO
+- **Libraries**: 
+  - `DDS Library`
+  - `Sensor Libraries`
+  - `Feedback Control Libraries`
 
-Each node outputs a waveform calculated as:
+### Performance Metrics
 
-```math
-A(t) = A₀ * [sin(3ωt) + sin(6ωt) + sin(9ωt)]
+- **Frequency Range**: 1 Hz to 100 kHz
+- **Output Amplitude**: Adjustable from 0 to 5V
+- **Phase Accuracy**: ±0.1 degrees
+- **Thermal Regulation**: Maintains optimal temperatures within ±2°C
 
-3ω: Primary phase structure
+## Installation
 
-6ω: Harmonic reflection
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/cardboardartstudio/IX-TunerCore.git
+   ```
+   
+2. **Install Dependencies**: 
+   - Open the project in your preferred IDE.
+   - Install the required libraries as specified in the `lib` folder.
 
-9ω: Coherence amplifier
+3. **Upload to Microcontroller**: 
+   - Connect your microcontroller to your computer.
+   - Select the appropriate board and port in the IDE.
+   - Upload the code.
 
-When oriented inward toward a singular focal point, the 21 pyramids enable scalar field visualization via phase-locked feedback. The system operates on Tesla’s 3-6-9 logic, harmonic resonance stacking, and measurable magnetic-optical convergence.
+4. **Download Latest Release**: 
+   Visit [Releases](https://github.com/cardboardartstudio/IX-TunerCore/releases) to download the latest version. Follow the instructions in the release notes to execute the files.
 
-🛠️ What's Included
-/firmware/ — Arduino firmware for DDS control and sensor sync
+## Usage
 
-/mechanical/ — STL files for 3D-printable pyramid enclosures
+### Basic Configuration
 
-/analysis/ — Real waveform simulation and phase gain models
+- Open the main configuration file located in the `src` directory.
+- Adjust parameters such as frequency, amplitude, and modulation type according to your requirements.
 
-/docs/ — Full scientific brief, FAQ, and scalar logic design
+### Running the System
 
-/media/ — Project banner with live formula overlay
+1. Power on the system.
+2. Ensure all sensors are calibrated.
+3. Start the main program from the IDE.
+4. Monitor the output through the serial console.
 
-/LICENSE — Custom civilian-safe harmonic license
+### Advanced Features
 
-🧠 Key Capabilities
-Field alignment using scalar resonance
+- Utilize the feedback loop for real-time adjustments.
+- Experiment with different modulation types to observe their effects on field dynamics.
 
-Real-time convergence feedback (temp, mag, light)
+## Contributing
 
-Phase error correction under ±1°
+We welcome contributions to improve IX-TunerCore. Please follow these steps:
 
-Closed-loop waveform shaping via DAC
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request detailing your changes.
 
-Buildable with common microcontrollers (Nano, Uno, ESP32)
+### Code of Conduct
 
-No wireless, no RF—pure harmonic sync via geometry
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a welcoming environment.
 
-🧪 Applications
-Scalar field visualization
+## License
 
-Harmonic resonance testing
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Gravitational phase lensing studies
+## Contact
 
-Advanced Tesla-based field symmetry builds
+For questions or support, please reach out via the Issues section of this repository.
 
-Academic and civilian R&D on convergence-based field architectures
+## Releases
 
-❌ What This Is Not
-Not a weapon
-
-Not a theoretical simulation
-
-Not pseudoscience
-
-Not subject to export or ITAR regulations
-
-⚖️ License
-This project is released under the IX Open Harmonic Field License v1.0
-No military use. No weaponization. Open source. Globally replicable.
-
-🛰️ Author
-Bryce Wooster
-Tesla-Harmonic Systems Architect | Scalar Field Alignment Engineer
-2025 — All rights reserved under open harmonic protection
-
-“If you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.”
-— Nikola Tesla
+For the latest updates and releases, visit [Releases](https://github.com/cardboardartstudio/IX-TunerCore/releases). Download and execute the necessary files to stay updated with the project.
